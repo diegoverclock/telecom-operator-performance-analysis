@@ -1,4 +1,4 @@
-# 📞 Telecom Churn & Operator Efficiency Analysis
+# 📞 Telecom Operator Efficiency Analysis
 
 ## 📋 Descripción
 
