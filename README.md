@@ -129,7 +129,7 @@ jupyter notebook
 4. Ejecutar el archivo:
 
 ```
-Telecom.ipynb
+telecom-operator-performance-analysis.ipynb
 ```
 
 ---
