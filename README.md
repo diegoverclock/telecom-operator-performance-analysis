@@ -111,7 +111,7 @@ Puedes explorar el dashboard desarrollado en Tableau Public en el siguiente enla
 1. Clonar el repositorio:
 
 ```bash
-git clone https://github.com/diegoverclock/telecom-churn-analysis.git
+git clone (https://github.com/diegoverclock/telecom-operator-performance-analysis.git
 ```
 
 2. Instalar las dependencias:
@@ -129,7 +129,7 @@ jupyter notebook
 4. Ejecutar el archivo:
 
 ```
-Telecom - Churn.ipynb
+Telecom.ipynb
 ```
 
 ---
