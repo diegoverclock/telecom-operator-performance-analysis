@@ -1,64 +1,148 @@
-# \# 🚖 Análisis de datos de Taxis
+# 📞 Telecom Churn & Operator Efficiency Analysis
 
-# 
+## 📋 Descripción
 
-# \## 📊 Descripción general del proyecto
+Este proyecto analiza el desempeño de operadores de un centro de llamadas utilizando Python, SQL y Tableau con el objetivo de identificar operadores ineficaces mediante indicadores de rendimiento obtenidos a partir de registros de llamadas.
 
-# Este proyecto se centra en el análisis de datos de viajes en taxi para identificar patrones en la demanda, la duración de los trayectos y el impacto de factores externos como las condiciones meteorológicas. El análisis busca generar información útil para mejorar la eficiencia operativa y la toma de decisiones.
+Se realizó un proceso completo de análisis de datos que incluyó:
 
-# \## 🎯 Objetivos
+- Limpieza y preparación de datos.
+- Análisis Exploratorio de Datos (EDA).
+- Integración de múltiples conjuntos de datos.
+- Cálculo de métricas operativas.
+- Identificación de operadores con bajo desempeño.
+- Visualización de resultados mediante un dashboard interactivo en Tableau.
 
-# \- Identificar puntos de recogida y entrega con alta demanda
+---
 
-# \- Analizar patrones de duración de los viajes
+## 🎯 Objetivo
 
-# \- Evaluar el impacto de las condiciones climáticas en los viajes en taxi
+Identificar operadores ineficaces utilizando métricas de desempeño como:
 
-# \- Detectar tendencias que influyen en los ingresos y la demanda
+- Tiempo promedio de espera.
+- Duración de llamadas.
+- Cantidad de llamadas perdidas.
+- Llamadas entrantes y salientes.
+- Rendimiento general del operador.
 
-# \## 🛠️ Tecnologías usadas
+Los resultados permiten detectar oportunidades de mejora para optimizar la atención al cliente.
 
-# \- Python
+---
 
-# \- Pandas
+## 🛠️ Tecnologías utilizadas
 
-# \- NumPy
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- SciPy
+- Jupyter Notebook
+- Tableau Public
 
-# \- Matplotlib
+---
 
-# \- Seaborn
+## 📂 Estructura del proyecto
 
-# \- SciPy
+```
+├── Telecom - Churn.ipynb      # Notebook principal del análisis
+├── README.md
+└── datasets/
+```
 
-# \- Jupyter Notebook
+---
 
-# 
+## 📊 Proceso del análisis
 
-# \## 🔍 Procedimiento
+### 1. Carga de datos
 
-# 1\. Limpieza y preprocesamiento de datos
+Se importaron los conjuntos de datos de telecomunicaciones y clientes.
 
-# 2\. Análisis exploratorio de datos (EDA)
+### 2. Análisis Exploratorio de Datos (EDA)
 
-# 3\. Visualización de datos
+Se realizó:
 
-# 4\. Análisis estadístico y comprobación de hipótesis 
+- Revisión de tipos de datos.
+- Identificación de valores nulos.
+- Eliminación de duplicados.
+- Corrección de inconsistencias.
+- Estadística descriptiva.
+- Visualización de distribuciones.
 
-# 
+### 3. Preparación de datos
 
-# \## 📈 Insights encontrados
+Se integraron ambos conjuntos de datos para obtener una base consolidada de operadores y llamadas.
 
-# \- Ciertas zonas concentran la mayoría de los viajes en taxi, lo que indica áreas de alta demanda.
+### 4. Ingeniería de características
 
-# \- Las condiciones climáticas tienen un impacto significativo en la duración de los viajes.
+Se calcularon indicadores como:
 
-# \- Los patrones de demanda varían según la hora y la ubicación.
+- Tiempo de espera.
+- Duración promedio de llamadas.
+- Número de llamadas atendidas.
+- Número de llamadas perdidas.
+- Cantidad de llamadas entrantes y salientes.
 
-# \## 🚀 Cómo correr:
+### 5. Identificación de operadores ineficaces
 
-# 1\. Clona el repositorio:
+Se definieron criterios para clasificar a los operadores según su desempeño y se compararon sus métricas mediante análisis estadístico y visualizaciones.
 
-# &#x20;  ```bash
+---
 
-# &#x20;  git clone https://github.com/diegoverclock/taxis.git
+## 📈 Dashboard interactivo
+
+Puedes explorar el dashboard desarrollado en Tableau Public en el siguiente enlace:
+
+🔗 **https://public.tableau.com/views/DashboardTelecomunicaciones_17821513335520/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link**
+
+---
+
+## 📌 Principales hallazgos
+
+- Se identificaron operadores con tiempos de espera considerablemente superiores al promedio.
+- Algunos operadores presentan una mayor proporción de llamadas perdidas.
+- Existen diferencias importantes en la duración promedio de las llamadas entre operadores.
+- Las métricas obtenidas permiten establecer criterios objetivos para evaluar el desempeño operativo.
+
+---
+
+## 🚀 Cómo ejecutar el proyecto
+
+1. Clonar el repositorio:
+
+```bash
+git clone https://github.com/tu_usuario/tu_repositorio.git
+```
+
+2. Instalar las dependencias:
+
+```bash
+pip install pandas numpy matplotlib seaborn scipy jupyter
+```
+
+3. Abrir el notebook:
+
+```bash
+jupyter notebook
+```
+
+4. Ejecutar el archivo:
+
+```
+Telecom - Churn.ipynb
+```
+
+---
+
+## 📁 Fuente de datos
+
+Los datos utilizados corresponden a registros de llamadas y operadores de un centro de atención telefónica con fines académicos para el desarrollo de este proyecto.
+
+---
+
+## 👤 Autor
+
+**Diego Alonso Morales**
+
+Proyecto desarrollado como parte de un análisis de datos enfocado en la evaluación del desempeño de operadores de telecomunicaciones utilizando Python y Tableau.
 
