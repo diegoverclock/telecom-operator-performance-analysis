@@ -111,7 +111,7 @@ Puedes explorar el dashboard desarrollado en Tableau Public en el siguiente enla
 1. Clonar el repositorio:
 
 ```bash
-git clone https://github.com/tu_usuario/tu_repositorio.git
+git clone https://github.com/diegoverclock/telecom-churn-analysis.git
 ```
 
 2. Instalar las dependencias:
