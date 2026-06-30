@@ -142,7 +142,7 @@ Los datos utilizados corresponden a registros de llamadas y operadores de un cen
 
 ## 👤 Autor
 
-**Diego Alonso Morales**
+**Ing. Diego Alonso Morales Salazar**
 
 Proyecto desarrollado como parte de un análisis de datos enfocado en la evaluación del desempeño de operadores de telecomunicaciones utilizando Python y Tableau.
 
